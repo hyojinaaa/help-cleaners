@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero {
+	background-color: #ff5722;
+	text-align: center;
+	font-size: 36px;
+	padding: 120px;
+	color: white;
+	
+}
+
+.content {
+	font-size: 22px;
+	background-color: #eee;
+}
+
+.content2 {
+	background-color: white;
+	font-size: 22px;
+}
+
+.content2 .ten {
+	width: 10%;
+}
+
+.title {
+	padding: 50px 0;
+	width: 600px;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: verdana;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.help1 {
+	width: 1000px;
+	display: flex;
+	margin: 0 auto;
+
+}
+
+.sixty h2 {
+	font-family: 'Slabo 27px', serif;
+	padding: 40px;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	padding-top: 80px;
+}
+
+.help1 .sixty {
+	width: 60%;
+	padding: 50px;
+	text-align: left;
+}
+
+.sixty div {
+	padding: 10px;
+	padding-left: 40px;
+	color: #777777;
+	width: 500px;
+}
+
+.sixty .subtitle {
+	font-size: 18px;
+	font-weight: lighter;
+	margin-bottom: 8px;
+}
+
+.help1 .thirty {
+	width: 30%;
+	//display: flex;
+	//justify-content: center;
+	//flex-direction: column;
+	display: inline-block;
+	margin-top: 80px;
+	padding-bottom: 60px;
+}
+
+.button {
+	background-color: transparent;
+	font-size: 15px;
+	padding: 15px 30px;
+	margin-top: 20px;
+	border: 1px solid #ff5722;
+	border-radius: 5px;
+	outline: none;
+	color: #ff5722;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #ff5722;
+	color: white;
+}
+.pause {
+	display: none;
+}
+
+#help5 a {
+	display: block;
+	color: #777777;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+#help5 a:hover {
+	color: #ff5722;
+}
+
+.tip {
+	color: #ff5722;
+	font-size: 15px;
+	font-weight: lighter;
+	margin-top: 20px;
+}
+
+.dialog {
+	background: white;
+	text-align: center;
+	padding: 50px;
+	font-family: 'Slabo 27px', serif;
+	display: none;
+	border-radius: 5px;
+}
+
+.ui-dialog {
+	outline: none;
+}
+
+.ui-dialog-titlebar-close {
+	background-color: white;
+	border: none;
+	outline: none;
+}
+
+
+
