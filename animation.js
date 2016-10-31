@@ -11,32 +11,32 @@ $(document).ready(function(){
 
 		    
  
-			if( scrollPosition > 100 ) {
+			if( scrollPosition > 200 ) {
 				help1.slideDown();
 			} else {
 				help1.hide();
 			}
 
-			if( scrollPosition > 800 ) {
+			if( scrollPosition > 900 ) {
 				help2.slideDown();
 			} else {
 				help2.hide();
 			}
 
-			if( scrollPosition > 1500 ) {
+			if( scrollPosition > 1600 ) {
 				help3.slideDown();
 			} else {
 				help3.hide();
 			}
 
-			if( scrollPosition > 2200 ) {
+			if( scrollPosition > 2300 ) {
 				help4.slideDown();
 			} else {
 				help4.hide();
 			}
 
 
-			if( scrollPosition > 2900 ) {
+			if( scrollPosition > 3000 ) {
 				help5.slideDown();
 			} else {
 				help5.hide();
